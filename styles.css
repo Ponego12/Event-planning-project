@@ -1,0 +1,210 @@
+ /* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffa9da;
+    color: #333;
+    line-height: 1.6;
+    background-image: url(images/Par);
+}
+
+/* Navigation Bar */
+header {
+    position: sticky;
+    top: 0;
+    background-image: url(images/download\ \(11\).jpeg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 5px 10px 5px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    font-weight: bold;
+    color: #f4f2f2;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Hero Section */
+#home {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.home-content h1 {
+    font-size: 3rem;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 15px 30px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.home-content p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.whisper {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.whisper:hover {
+    background-color: #555;
+}
+
+/* Services Section */
+#services {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.service-card {
+    background-color: #f6f6f6;
+    padding: 30px;
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Gallery Styles */
+.gallery {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.slider-container {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Navigation Buttons */
+button.previous, button.next {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+button.previous {
+    left: 0;
+}
+
+button.next {
+    right: 0;
+}
+
+button.previous:hover, button.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+/* Gallery Styles */
+.gallery {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.slider-container {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Navigation Buttons */
+button.previous, button.next {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+button.previous {
+    left: 0;
+}
+
+button.next {
+    right: 0;
+}
+
+button.previous:hover, button.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Harmonic Hearth - Event Planning </title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+   <!--1 NAvigation Bar-->
+   <header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+   </header>
+    <!--2 Hero Section-->
+    <section id="home">
+        <div class="home-content">
+            <h1>
+                Bringing your dream events to life
+            </h1>
+            <p>Your vision ,our expertise </p>
+            <button class="whisper">whisper to us </button>
+        </div>
+    </section>
+    <!--3 Services Section-->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service-card">
+            <h3>Wedding Planning</h3>
+            <p>from intimatem ceremonies to grand celebrations, we handle it all.</p>
+        </div>
+        <div class="service-card">
+            <h3> coprate Functions </h3>
+            <p>Plan every event with class</p>
+        </div>
+
+    </section>
+    <!--4 Gallery Section-->
+    <section id="gallery">
+        <h2>Our work</h2>
+        <div class="gallery" id="wedding-gallery">
+            <h3>Wedding Gallery</h3>
+             <!--Images of work-->
+             <div class="slider">
+                <div class="slide active">
+                     <img src="images/fall wedding reception.jpeg" alt="wedding event 1">
+                    </div>
+                <div class="slide active">
+                    <img src="images/Flower-inspired installation art for luxurious wedding by @tinkertailorart Join our upcoming workshop, “AI-Immersed Artistry,” led by… _ Instagram.jpeg" alt=""></div>
+                <div class="slide active">
+                    <img src="images/download (9).jpeg" alt="wedding event 3">
+                </div>
+                <div class="slide">
+                    <img src="images/download (8).jpeg" alt="wedding event 4">
+                </div>
+             </div>   
+             <!--Navigation buttons-->
+             <button class="previous" onclick="moveSlide(-1, 'wedding')">&#10094;</button>      
+             <button class="previous" onclick="moveSlide(1, 'wedding')">&#10095;</button>  
+        </div>
+        <!--- Corporate Functions  -->
+        <div class="gallery" id="corporate-gallery">
+            <h3>Corprate Events</h3>
+                <!--Images of work-->
+                <div class="slider">
+                    <div class="slide">
+                    <img src="images/Themed Dinner Gala.jpeg" alt="corprate function">
+                    </div>  
+                    <div class="slide">
+                        <img src="images/Formal Event Tablescape with Candles.jpeg" alt="corprate function">
+                    </div>  
+                </div>
+        </div>
+        <!--Navigation buttons-->
+        <button class="previous" onclick="moveSlide(-1, 'wedding')">&#10094;</button>      
+        <button class="previous" onclick="moveSlide(1, 'wedding')">&#10095;</button>  
+        <!--Casual Events-->
+        <div class="gallery" id="casual-gallery">
+            <h3>Casual events</h3>
+            <!--Images of work-->
+            <div class="slider">
+                <div class="slide">
+                    <img src="images/download (1).jpeg" alt="casual-gallery">
+                </div>
+                <div class="slide">
+                    <img src="images/download (7).jpeg" alt="casual-gallery">
+                </div>
+                <div class="slide">
+                    <img src="images/download (5).jpeg" alt="valentines special">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--5 About Section-->
+    <section id="about">
+        <h2>About Our Team</h2>
+        <p>Welcome to Harmonic Hearth! We're your go-to event planning wizards, turning your dreams into unforgettable realities. With a knack for creativity and a passion for perfection, we bring harmony to every celebration.
+
+           <h4> Our Services</h4>
+            
+            Event Planning Magic: Whether it’s a dazzling wedding, a polished corporate event, or an epic party, we handle every detail with flair and finesse.
+            
+             <h4>Why Choose Us</h4>
+            
+            At Harmonic Hearth, we believe every event should be as unique as you are. Our personalized approach, expert touch, and relentless pursuit of excellence ensure your event is nothing short of extraordinary. Let’s make magic together!</p>
+
+    </section>
+    <!--6 Contact Section-->
+    <section id="contacts">
+        <h2>Contact US</h2>
+        <form action="#">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="text" id="email email="email" required>
+
+            <label for="message">Message</label>
+            <textarea name="message" id="messsage" required></textarea>
+
+            <button type="submit">Send Message</button>
+
+        </form>
+
+    </section>
+
+    <!--7 Footer Section-->
+    <footer>
+        <p>&copy; 2025 The harmoic Hearth | All rights Reserved</p>
+        <div class="social-media-links">
+            <a href="#">facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">LinkidIn</a>
+        </div>
+    </footer>
+</body>
+</html>
